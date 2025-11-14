@@ -1,0 +1,10 @@
+IDX  NAME         MDTST    PARAMS   DEFKEYS 
+1    DEFINE       1        1        0       
+#PARAMS &XYZ
+#DEFAULTS
+2    COMPUTE      7        2        0       
+#PARAMS &F,&S
+#DEFAULTS
+3    INCRM        11       3        0       
+#PARAMS &M,&I,&R
+#DEFAULTS

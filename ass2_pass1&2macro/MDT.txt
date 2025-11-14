@@ -1,0 +1,15 @@
+INDEX  LINE
+1      MACRO
+2      #1     &X,&Y,&OP
+3      MOVER    AREG,&X
+4      &OP      AREG,&Y
+5      MOVEM    AREG,&X
+6      MEND
+7      MOVEM    BREG,TMP
+8      INCRM    #1,#2,BREG
+9      MOVER    BREG,TMP
+10     MEND
+11     MOVER    #3,#1
+12     ADD      #3,#2
+13     MOVEM    #3,#1
+14     MEND
